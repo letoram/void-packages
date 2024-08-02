@@ -1,7 +1,7 @@
 # Template file for 'aloadimage'
 # !! keep synced with arcan
 pkgname=aloadimage
-version=0.6.2.1
+version=0.6.3.3
 revision=1
 build_wrksrc=src/tools/aloadimage
 build_style=cmake
@@ -12,7 +12,7 @@ maintainer="Piraty <mail@piraty.dev>"
 license="BSD-3-Clause"
 homepage="https://arcan-fe.com/"
 distfiles="https://github.com/letoram/arcan/archive/${version}.tar.gz"
-checksum=7bf083412bc61555472877313c13116431a0a36fccbf142f97559db43b4a1475
+checksum=@681310a27526bf2f594cb426805561c14f48e4b9fb522bd8156e2ae6c4596462
 
 post_install() {
 	vlicense ../../../COPYING
